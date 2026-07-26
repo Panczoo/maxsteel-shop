@@ -144,4 +144,60 @@
 
     object-fit:cover;
 
+}.product-features{
+
+    margin:20px 22px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+
+    color:#4b5563;
+
+}
+
+.product-buttons{
+
+    display:flex;
+
+    gap:12px;
+
+    padding:0 22px 22px;
+
+}
+
+.product-buttons a{
+
+    flex:1;
+
+}
+
+.btn-outline{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border:2px solid var(--primary);
+
+    color:var(--primary);
+
+    border-radius:12px;
+
+    font-weight:700;
+
+    padding:16px;
+
+}
+
+.btn-outline:hover{
+
+    background:var(--primary);
+
+    color:#111;
+
 }

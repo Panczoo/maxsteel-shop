@@ -1,0 +1,55 @@
+/* ===========================
+   OPINIE
+=========================== */
+
+.reviews{
+
+    background:var(--gray);
+
+}
+
+.review-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+.review-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    box-shadow:var(--shadow);
+
+    transition:var(--transition);
+
+}
+
+.review-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.review-card p{
+
+    margin:20px 0;
+
+    color:#6b7280;
+
+    line-height:1.8;
+
+}
+
+.review-card strong{
+
+    color:var(--dark);
+
+}

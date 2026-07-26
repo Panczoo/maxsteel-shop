@@ -1,0 +1,67 @@
+/* ===========================
+   STATYSTYKI
+=========================== */
+
+.stats{
+
+    background:var(--white);
+
+    margin-top:-70px;
+
+    position:relative;
+
+    z-index:20;
+
+}
+
+.stats-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:30px;
+
+}
+
+.stats-grid div{
+
+    background:var(--white);
+
+    border-radius:18px;
+
+    padding:35px;
+
+    text-align:center;
+
+    box-shadow:var(--shadow);
+
+    transition:var(--transition);
+
+}
+
+.stats-grid div:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.stats-grid h2{
+
+    font-size:52px;
+
+    color:var(--primary);
+
+    margin-bottom:10px;
+
+    font-weight:800;
+
+}
+
+.stats-grid p{
+
+    font-size:18px;
+
+    color:#6b7280;
+
+}

@@ -1,0 +1,195 @@
+/* ===========================
+   HERO
+=========================== */
+
+.hero{
+
+    position:relative;
+
+    min-height:100vh;
+
+    display:flex;
+
+    align-items:center;
+
+    padding-top:90px;
+
+    background:linear-gradient(rgba(20,27,37,.75),rgba(20,27,37,.75)),
+               url("../images/hero.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+}
+
+.hero-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:linear-gradient(90deg,
+        rgba(17,24,39,.82) 0%,
+        rgba(17,24,39,.55) 45%,
+        rgba(17,24,39,.20) 100%);
+
+}
+
+.hero-wrapper{
+
+    position:relative;
+
+    z-index:2;
+
+    display:grid;
+
+    grid-template-columns:1.2fr .8fr;
+
+    gap:70px;
+
+    align-items:center;
+
+}
+
+.hero-left{
+
+    color:white;
+
+}
+
+.hero-top{
+
+    display:inline-block;
+
+    margin-bottom:20px;
+
+    color:var(--primary);
+
+    font-weight:700;
+
+    letter-spacing:4px;
+
+    text-transform:uppercase;
+
+}
+
+.hero-left h1{
+
+    font-size:68px;
+
+    line-height:1.05;
+
+    margin-bottom:30px;
+
+    font-weight:800;
+
+}
+
+.hero-left p{
+
+    font-size:22px;
+
+    max-width:700px;
+
+    color:#e5e7eb;
+
+    margin-bottom:40px;
+
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.hero-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:35px;
+
+    box-shadow:var(--shadow);
+
+}
+
+.hero-card span{
+
+    color:var(--primary);
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+}
+
+.hero-card h3{
+
+    margin:18px 0 25px;
+
+    font-size:30px;
+
+    color:var(--dark);
+
+}
+
+.hero-card ul{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:14px;
+
+    margin-bottom:30px;
+
+}
+
+.hero-card li{
+
+    color:#4b5563;
+
+    font-size:17px;
+
+}
+
+.btn-card{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    width:100%;
+
+    padding:18px;
+
+    border-radius:12px;
+
+    background:var(--primary);
+
+    color:var(--dark);
+
+    font-weight:700;
+
+}
+
+.btn-card:hover{
+
+    background:var(--primary-hover);
+
+}

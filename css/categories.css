@@ -1,0 +1,111 @@
+/* ===========================
+   KATEGORIE
+=========================== */
+
+.categories{
+
+    background:#ffffff;
+
+}
+
+.category-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:35px;
+
+}
+
+.category-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:var(--shadow);
+
+    transition:var(--transition);
+
+}
+
+.category-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.category-image{
+
+    height:260px;
+
+    background:#d1d5db;
+
+    background-size:cover;
+
+    background-position:center;
+
+}
+
+/* TYMczasowe kolory - później podmienimy na Twoje zdjęcia */
+
+.category-card:nth-child(1) .category-image{
+
+    background:#374151;
+
+}
+
+.category-card:nth-child(2) .category-image{
+
+    background:#4b5563;
+
+}
+
+.category-card:nth-child(3) .category-image{
+
+    background:#6b7280;
+
+}
+
+.category-card h3{
+
+    font-size:28px;
+
+    color:var(--dark);
+
+    padding:25px 25px 10px;
+
+}
+
+.category-card p{
+
+    padding:0 25px;
+
+    color:#6b7280;
+
+    min-height:70px;
+
+}
+
+.category-card a{
+
+    display:inline-block;
+
+    margin:25px;
+
+    color:var(--primary);
+
+    font-weight:700;
+
+    font-size:16px;
+
+}
+
+.category-card:hover a{
+
+    transform:translateX(6px);
+
+}

@@ -1,0 +1,34 @@
+:root{
+
+    /* Kolory */
+
+    --primary:#facc15;
+    --primary-hover:#eab308;
+
+    --dark:#1f2933;
+    --dark-2:#111827;
+
+    --white:#ffffff;
+
+    --gray:#f3f4f6;
+    --gray2:#e5e7eb;
+
+    --text:#1f2937;
+
+    /* Kontener */
+
+    --container:1400px;
+
+    /* Zaokrąglenia */
+
+    --radius:14px;
+
+    /* Cienie */
+
+    --shadow:0 15px 40px rgba(0,0,0,.12);
+
+    /* Animacje */
+
+    --transition:.3s ease;
+
+}
